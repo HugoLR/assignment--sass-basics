@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box; }
+
+.instagram__card {
+  padding: 30px 40px 40px 40px; }
+
+.instagram__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.instagram__header {
+  width: 100%;
+  text-align: center; }
+
+.instagram__logo {
+  width: 175px;
+  height: 51px; }
+
+.instagram__singin {
+  position: relative;
+  width: 100%; }
+
+.instagram__facebook {
+  width: 100%;
+  background-color: #3897f0; }
+
+.instagram__icon {
+  color: black;
+  position: absolute;
+  top: 0; }

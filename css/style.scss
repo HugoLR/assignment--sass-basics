@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  // outline: 1px solid red;
+}
+
+$textColorGeneral : #999;
+$cornerRadiusGeneral : 3px;
+$textSize: 14px;
+$borderColorGeneral : #E6E6E6;
+$blue : #3897f0;
+$borderColorInput : #EFEFEF;
+$backgroundColorInput: #FAFAFA;
+
+.instagram {
+  &__card {
+    padding: 30px 40px 40px 40px;
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid $borderColorGeneral;
+    flex: 1;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  &__header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__logo {
+    width: 175px;
+    height: 51px;
+  }
+
+  &__singin {
+    position: relative;
+    width: 100%;
+  }
+
+  &__facebook {
+    width: 100%;
+    background-color: $blue;
+    font-size: $textSize;
+    font-weight: bold;
+    border: 1px solid $borderColorGeneral;
+    border-radius: $cornerRadiusGeneral;
+    color: white;
+    padding: 10px;
+  }
+
+  &__icon {
+    color: white;
+    position: absolute;
+    font-size: 17px;
+    top: 12px;
+    left: 40px;
+  }
+
+  &__third {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+  }
+
+  &__linea {
+    height: 1px;
+    flex-basis: 40%;
+    align-self:center;
+  }
+
+  &__option {
+    flex-basis: 20%;
+    text-align: center;
+  }
+
+  &__inputs {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  &__form {
+    border: 1px solid $borderColorInput;
+    background-color: $backgroundColorInput;
+    height: 36px;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 10px;
+  }
+
+  &__singup {
+    color: white;
+    background-color: $blue;
+    border-radius: $cornerRadiusGeneral;
+  }
+
+  &__singup {
+    width: 100%;
+    background-color: $blue;
+    font-size: $textSize;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+  }
+
+  &__terms {
+    width: 100%;
+    text-align: center;
+    color: #999;
+    font-size: $textSize;
+  }
+
+  &__login {
+    width: 100%;
+    text-align: center;
+    border: 1px solid $borderColorGeneral;
+    padding: 20px;
+    font-weight: bold;
+    // height: 70px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #52A1F2;
+    margin-left: 5px;
+  }
+}
